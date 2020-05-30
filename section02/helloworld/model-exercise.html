@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/angular.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>ng-model</h1>
+            <h4>en AngularJS</h4>
+            <input type="text" ng-model="nombre" class="form-control" placeholder="Ingrese su nombre">
+            <p>Su nombre {{nombre | uppercase}} </p>
+        </div>
+    </body>
+</html>
